@@ -45,7 +45,13 @@ public class Maze {
 	}
 
 	private static void printMaze() {
-		
+		for(int i=0; i<N; i++) {
+			for(int j=0; j<N; j++) {
+				System.out.print(maze[i][j]);
+			}
+			System.out.println();
+		}
+		System.out.println("=====================");
 	}
 		
 }
